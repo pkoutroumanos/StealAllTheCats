@@ -25,7 +25,9 @@ Example connection string:
 "ConnectionStrings": {
   "DefaultConnection": "Server=YOUR_SERVER;Database=CatsDb;User Id=YOUR_USER;Password=YOUR_PASSWORD;TrustServerCertificate=True"
 }
+
 In a terminal, navigate to the StealAllTheCats project folder and run:
+
 dotnet ef database update --project StealAllTheCats
 
 ### 3. Run the Application
